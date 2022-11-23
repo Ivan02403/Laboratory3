@@ -1,0 +1,251 @@
+body{
+			color: orange;
+			background-color: black;
+			/*padding:0;*/
+			margin: 0;
+		}
+				/*****navigation*****/
+		nav{
+			width: 100%;
+			background-color: black;
+			padding:.1rem;
+			margin: 0;
+		}
+
+		nav a{
+			font-weight:700;
+			text-decoration: none;
+		}
+		ul{
+			display: flex;
+			list-style: none;
+			justify-content: right;
+			font-size: 18px;
+			padding-right: 70px;
+		}
+		li{
+			padding: 1.5rem;
+		}
+		a {
+			color: orange;
+		}
+
+		.link:hover{
+			color: black;
+			background-color: orange;
+			padding: 10px;
+			border-radius: 50px;
+		}
+
+		.link:focus{
+			color: black;
+			background-color: orange;
+			padding: 10px;
+			border-radius: 50px;
+		}
+
+		/*******HOME******/
+		.container{
+			padding: 200px;
+			/*background: white;*/
+			width: 100%;
+			margin: 0 auto;
+			display: flex;
+		}
+		.name{
+			font-family: monospace;
+			font-size: 3.5rem;
+			margin-top: -10px;
+			padding: 0;
+			line-height: 0;
+			
+		}
+
+		.subtitle{
+			color: darkgray;
+			font-size: 1rem;
+			font-weight: lighter;
+			font-family: monospace;
+			line-height: 5px;
+			margin-bottom: 0;
+			letter-spacing: 0px;
+			display: flex;
+			padding-top: -15px;
+				}
+
+		.picture{
+			width: 30%;
+			padding-left: 700px;
+			margin-top: -170px;
+			/*padding-right: -275px;*/
+
+		}
+		.button{
+			padding-top: -500px;
+			background-color: orange;
+			padding: 10px;
+			border-radius: 50px;
+		}
+
+		.head-2{
+ 			margin-bottom: 5%;
+ }
+
+ 		.box{
+			border: 1px solid #00203FFF;
+			padding: 40px;
+			background-color: rgba(	0, 32, 63, .5);
+			color: white;
+			width: 70%;
+			margin: auto;
+			margin-top: -1%;
+			font-family: 'century gothic', sans-serif;
+			text-align: center;
+			border-radius: 20px;
+			padding-bottom: 55px;
+}
+		#proId{
+			/*padding: 200px;*/
+			width: 20%;
+			border-radius: 50%;
+			border: 1px solid white;
+			margin: auto;
+			display: block;
+		}
+		.head{
+			text-align: center;
+			font-family: monospace;
+			font-size: 35px;
+			margin: 1%;
+			color: orange;
+		}
+		.know{
+			text-align: center;
+			/*margin:200px;*/
+			margin-top:2%;
+			margin-bottom:30px;
+}
+
+		.cover{
+			margin-top: 50px;
+			width:800px;
+			height:400px;
+			display: flex;
+			margin:auto;
+			margin-top: -1%;
+			justify-content: center;}
+
+		.box-1{
+			color: #00203F;
+			width: 500px;
+			height:450px;
+			margin-top: 0px;
+			margin:20px;
+			box-shadow: -1px 0 10px #0000;
+			background-color: #fff;
+			border-radius: 20px;}
+
+		.logo{
+			color:white;
+			background-color: antiquewhite;
+			box-shadow:inset -5px -5px rgba(0, 0, 0, 0.5);
+			width:200px;
+			height:200px;
+			margin-left: 75px;
+			margin-top:50px;
+			display:flex;
+			
+			
+		}
+		.background{
+			margin-top: 90px;
+			width: 60%;
+
+			}
+		#education{
+			list-style: none;
+			font-family: cursive;
+		}
+
+		table{
+			font-family: cursive;
+			border-collapse: collapse;
+			width: 50%;
+			text-align: center;
+			margin: auto;
+			margin-top: 50px;
+		}
+
+		td, th{
+			border: 1px solid white;
+			padding:  8px;
+			text-align: center;
+
+		}
+
+		th{
+			background-color: orange ;
+			color: white;
+		}
+
+		/*Educational*/
+
+		.achieve{
+			display: column;
+			margin: auto;
+
+		}
+		.awards{
+			width:650px;
+			height:500px;
+			margin: auto;
+			display: flex;
+			margin-top: 5% ;
+			margin-bottom: 10% ;
+			border: 5px solid black;
+		}
+
+		.down{
+			margin-bottom: 1%;
+		}
+
+		 .top{
+			list-style: none;
+			font-family: cursive;
+			text-align: center;
+			flex-direction: column;
+			margin-bottom: -25px;
+			padding-bottom: -50px;
+
+		}
+
+				.honors{
+		 	text-align: center;
+		 	margin-top: -10%;
+		 	font-family: cursive;
+		 	font-size: 18px;
+		 }
+
+		 	/*Gallery*/
+		 	.caption{
+			border: 1px solid #00203FFF;
+			padding: 40px;
+			background-color: rgba(	0, 32, 63, .5);
+			color: white;
+			width: 70%;
+			margin: auto;
+			margin-top: 5%;
+			font-family: 'century gothic', sans-serif;
+			text-align: center;
+			border-radius: 20px;
+			padding-bottom: 55px;
+		}
+
+	.value{
+		width: 50%;
+		margin: auto;
+		display: flex;
+		margin-top: 5% ;
+		margin-bottom: 10% ;
+		border: 5px solid black;
+	}
